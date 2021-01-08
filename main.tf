@@ -35,7 +35,7 @@ module "my_ec2" {
   security_groups        = ["sg-042b175d17b5c31d6"]
   subnet_ids             = ["subnet-036a9578fadf469d9"]
   vpc_id                 = "vpc-0c8f0856e8b325c59"
-  ssh_source_restriction = "sg-03d3abe34b99c8c9d"
+  ssh_source_restriction = "sg-042b175d17b5c31d6"
   allow_icmp = true
   tags = merge(
     var.common_tags,
