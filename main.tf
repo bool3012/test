@@ -27,7 +27,6 @@ module "my_ec2" {
   source                 = "./modules/aws-ec2"
   #version                = "~> 2.0"
   name                   = "my-ec2"
-
   ami                    = "ami-01720b5f421cf0179"
   instance_type          = "t2.micro"
   ssh_key                = "azannetti"
