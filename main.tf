@@ -32,7 +32,7 @@ module "my_ec2" {
   ssh_key                = "azannetti"
   enable_monitoring      = false
   public                 = false
-  security_groups        = ["sg-03d3abe34b99c8c9d"]
+  security_groups        = ["sg-042b175d17b5c31d6"]
   subnet_ids             = ["subnet-036a9578fadf469d9"]
   vpc_id                 = "vpc-0c8f0856e8b325c59"
   ssh_source_restriction = "sg-03d3abe34b99c8c9d"
